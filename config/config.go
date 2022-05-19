@@ -22,7 +22,6 @@ func ReadAllConfigs() error {
 	fmt.Println("Reading config files...")
 
 	file, err := ioutil.ReadFile("./config.json")
-	fmt.Println(file)
 
 	if err != nil {
 		fmt.Println("error when read file ", err.Error())
